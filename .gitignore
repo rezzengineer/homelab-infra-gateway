@@ -1,14 +1,7 @@
-# File Kredensial & Secrets
 .env
-
-# Nginx Proxy Manager Data & SSL Certificates
 npm/data/
 npm/letsencrypt/
-
-# AdGuard Home Data, Configs, & DNS Logs
 adguard/work/
 adguard/conf/
-
-# OS generated files (Buat jaga-jaga kalau lo buka via Windows/Mac)
 .DS_Store
 Thumbs.db

@@ -216,14 +216,21 @@ The default blocklists are a good starting point, but tuning them to your enviro
 ## 📁 Repository Structure
 
 ```
-homelab-infra-gateway/
-├── docker-compose.yml      # Main stack definition
-├── .env.example            # Environment variable template
-├── assets/                 # Screenshots and architecture diagrams
-│   ├── architecture-diagram.png
+├── assets/                  # Screenshots and architecture diagrams
+│   ├── adguard-dashboard.png
 │   ├── adguard-setup-1.png
-│   └── npm-dashboard.png
-└── README.md
+│   ├── adguard-setup-2.png
+│   ├── adguard-setup-3.png
+│   ├── adguard-setup-4.png
+│   ├── adguard-setup-5.png
+│   ├── adguard-setup-6.png
+│   ├── architecture-diagram.png
+│   ├── npm-dashboard.png
+│   └── npm-setup-wizard.png
+├── .gitignore               # List of files/folders ignored by Git
+├── README.md                # Documentation in English
+├── README.id.md             # Dokumentasi dalam Bahasa Indonesia
+└── docker-compose.yml
 ```
 
 ---

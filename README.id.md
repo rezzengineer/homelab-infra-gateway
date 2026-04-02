@@ -218,15 +218,21 @@ Blocklist default adalah titik awal yang baik, namun menyesuaikannya dengan ling
 ## 📁 Struktur Repositori
 
 ```
-homelab-infra-gateway/
-├── docker-compose.yml      # Definisi utama stack
-├── .env.example            # Template environment variable
-├── assets/                 # Screenshot dan diagram arsitektur
-│   ├── architecture-diagram.png
+├── assets/                  # Screenshots and architecture diagrams
+│   ├── adguard-dashboard.png
 │   ├── adguard-setup-1.png
-│   └── npm-dashboard.png
-├── README.md               # Dokumentasi (Bahasa Inggris)
-└── README.id.md            # Dokumentasi (Bahasa Indonesia)
+│   ├── adguard-setup-2.png
+│   ├── adguard-setup-3.png
+│   ├── adguard-setup-4.png
+│   ├── adguard-setup-5.png
+│   ├── adguard-setup-6.png
+│   ├── architecture-diagram.png
+│   ├── npm-dashboard.png
+│   └── npm-setup-wizard.png
+├── .gitignore               # List of files/folders ignored by Git
+├── README.md                # Documentation in English
+├── README.id.md             # Dokumentasi dalam Bahasa Indonesia
+└── docker-compose.yml
 ```
 
 ---

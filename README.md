@@ -9,6 +9,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Self-Hosted](https://img.shields.io/badge/Self--Hosted-Ready-blueviolet?style=flat-square)]()
 
+> 🌐 **Read Documentation with another language:** [Indonesia](README.id.md)
+
 ---
 
 ## 📖 Overview

@@ -76,18 +76,7 @@ Before deploying, ensure your host machine satisfies the following requirements:
 git clone https://github.com/rezzengineer/homelab-infra-gateway.git
 cd homelab-infra-gateway
 ```
-
-### 2. Configure Environment Variables
-
-```bash
-# Copy the example environment file and populate your values
-cp .env.example .env
-nano .env
-```
-
-> Review all variables in `.env`. At minimum, configure any database credentials if NPM is wired to an external MySQL/MariaDB instance instead of the default SQLite backend.
-
-### 3. Launch the Stack
+### 2. Launch the Stack
 
 ```bash
 docker compose up -d
@@ -128,7 +117,7 @@ http://<HOST-IP>:3000
 
    ![AdGuard Setup — Interface Port Configuration](assets/adguard-setup-2.png)
 
-3. **DNS Server** — Leave the DNS server listen address as `0.0.0.0:53`. This allows all LAN devices to use AdGuard as their resolver.
+3. **DNS Server** — Leave the DNS server listen address as `All Interfaces:53`. This allows all LAN devices to use AdGuard as their resolver.
 
    ![AdGuard Setup — DNS Configuration](assets/adguard-setup-3.png)
 

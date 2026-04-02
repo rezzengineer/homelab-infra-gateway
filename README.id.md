@@ -78,18 +78,7 @@ Sebelum melakukan deployment, pastikan mesin host Anda memenuhi persyaratan beri
 git clone https://github.com/<username-anda>/homelab-infra-gateway.git
 cd homelab-infra-gateway
 ```
-
-### 2. Konfigurasi Environment Variable
-
-```bash
-# Salin file environment contoh dan isi nilainya
-cp .env.example .env
-nano .env
-```
-
-> Tinjau semua variabel di dalam `.env`. Minimal, konfigurasikan kredensial database jika NPM dihubungkan ke instance MySQL/MariaDB eksternal, bukan backend SQLite default.
-
-### 3. Jalankan Stack
+### 2. Jalankan Stack
 
 ```bash
 docker compose up -d
@@ -130,7 +119,7 @@ http://<IP-HOST>:3000
 
    ![AdGuard Setup — Konfigurasi Port Interface](assets/adguard-setup-2.png)
 
-3. **DNS Server** — Biarkan alamat listen DNS server tetap di `0.0.0.0:53`. Ini memungkinkan semua perangkat di LAN menggunakan AdGuard sebagai resolver DNS mereka.
+3. **DNS Server** — Biarkan alamat listen DNS server tetap di `All Interfaces:53`. Ini memungkinkan semua perangkat di LAN menggunakan AdGuard sebagai resolver DNS mereka.
 
    ![AdGuard Setup — Konfigurasi DNS](assets/adguard-setup-3.png)
 
